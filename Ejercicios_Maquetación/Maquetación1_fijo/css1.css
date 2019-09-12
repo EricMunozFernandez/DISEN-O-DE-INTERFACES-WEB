@@ -1,0 +1,22 @@
+body{
+	margin: 0,auto;
+	width: 960px;
+}
+h1{
+	text-align: center;
+}
+aside{
+	float:left;
+	width:260px;
+}
+article{
+	float:left;
+	width:700px;
+}
+div.columna{
+	float: left;
+	width:33%;
+}
+div.columna li{
+list-style: none;
+}
