@@ -49,7 +49,57 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================= */
- 
+ body{
+  font-size: 0.9em;
+  font-family: Arial;
+  line-height: 1.4em;
+ }
+ .articulo h2{
+  color:#CC6600;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  margin-bottom: 0.3em;
+ }
+ #menu{
+  margin-right: 1em;
+ }
+ #menu a{
+  color:white;
+  font-size: 1.3em;
+ }
+ #lateral{
+  font-size: 0.9em;
+ }
+ #noticias .fecha{
+  color:#999;
+  width: 100%;
+ }
+ #noticias h3{
+  color: #CC6600;
+ }
+ #publicidad{
+  color: #555;
+}
+#publicicdad a{
+  color: #CC6600;
+}
+.articulo{
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+.articulo a{
+  color:#CC6600;
+}
+#secundario h2{
+  color:white;
+  font-size: 1em;
+}
+#publicidad a{
+  color: #DB905C;
+}
+li a{
+  margin-right: 1.5em;
+}
 #cabecera,
 #menu,
 #lateral,
