@@ -1,0 +1,39 @@
+body{
+    font-size: 24px;
+    font-family: helvetica;
+    background-color: #999999;
+}
+article{
+    background-color: #dddd88;
+    order:2;
+    flex-basis: 80%;
+}
+nav{
+    order: 1;
+}
+aside{
+    order: 3;
+}
+nav, aside{
+    background-color: #ccccff;
+    flex-basis: 20%;
+}
+header,footer{
+    background-color: #ffeebb;
+}
+#main{
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+article, nav, aside{
+    margin: 4px;
+    padding: 5px;
+    border:1px solid #cccc33;
+    border-radius: 7px;
+}
+@media (max-width: 640px){
+
+}
