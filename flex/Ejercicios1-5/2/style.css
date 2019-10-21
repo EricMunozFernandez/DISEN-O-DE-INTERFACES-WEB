@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 body{
     background-color: grey;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 body, html{
     width: 100%;
