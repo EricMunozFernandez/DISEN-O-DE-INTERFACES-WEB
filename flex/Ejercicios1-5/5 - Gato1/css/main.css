@@ -64,7 +64,6 @@ ul.principal {
 
 #movil {
     background-color: gray;
-    /*Añade aquí las propiedades Flexbox*/
     border-radius: 10px;
     padding: 10px;
     display: none;
@@ -148,11 +147,17 @@ footer {
         order: 4;
     }
     #subscribe form > * {
-        flex-wrap: wrap;
+        margin-bottom: 10px;
         align-self: normal;
+    }
+    #movil{
+        display: flex;
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width: 340px) {
-  /*Añade aquí las propiedades Flexbox*/
+  #movil{
+      
+  }
 }
