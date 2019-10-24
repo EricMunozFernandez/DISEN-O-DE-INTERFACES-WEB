@@ -157,7 +157,22 @@ footer {
 }
 
 @media (max-width: 340px) {
-  #movil{
-      
-  }
+    main{
+
+    }
+    #banner{
+        flex-grow:3;
+    }
+    #movil{
+        justify-content: center;
+    }
+    #contenido{
+        overflow-y: auto;
+    }
+    .principal{
+        flex-wrap: wrap;
+    }
+    .menu{
+        flex-basis: 100%;
+    }
 }
