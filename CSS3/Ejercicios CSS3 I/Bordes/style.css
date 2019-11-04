@@ -1,0 +1,45 @@
+.exampleborderradiusa{
+    border-radius: 0 0 40% 0;
+}
+.exampleborderradiusb{
+    border-bottom-right-radius: 150px 50px;
+}
+.exampleborderradiusc{
+    border-bottom-right-radius: 50px 150px;
+
+}
+.exampleborderradiusd{
+    border-top-right-radius: 100px 150px;
+    border-bottom-left-radius: 100px 150px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+.exampleborderradiuse{
+    border-top-right-radius: 50px 150px;
+    border-bottom-left-radius: 50px 150px;
+    border-top-left-radius: 150px 50px;
+    border-bottom-right-radius: 150px 50px;
+}
+.exampleborderradiusf{
+    border-radius: 100%;
+}
+.examplelabelborderradius{
+    color: white;
+    font-size: 30px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    background-color: #999999;
+    flex-basis: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

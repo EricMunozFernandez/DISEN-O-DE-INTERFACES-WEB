@@ -45,3 +45,59 @@
 .main div:nth-child(5) {
   background-color: black;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 30% repeat(3,23.33333%);
+  grid-template-rows: 60px repeat(3,40px);
+  grid-template-areas:
+  "azul rojo rojo rojo"
+  "azul amarillo amarillo amarillo"
+  "azul amarillo amarillo amarillo"
+  "azul amarillo amarillo amarillo";
+}
+#azul{
+  grid-area: azul;
+}
+
+#rojo {
+ grid-area: rojo;
+}
+
+#amarillo {
+grid-area: amarillo;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 33.333% repeat(2,16.666%) 33.333%;
+  grid-template-rows: repeat(3,60px);
+  grid-template-areas:
+  "uno dos tres cinco"
+  "uno cuatro . cinco"
+  "uno . . cinco";
+}
+
+.main div:nth-child(1) {
+  grid-area: uno;
+
+}
+
+.main div:nth-child(2) {
+  grid-area: dos;
+
+}
+
+.main div:nth-child(3) {
+  grid-area: tres;
+
+}
+
+.main div:nth-child(4) {
+  grid-area: cuatro;
+
+}
+.main div:nth-child(5) {
+  grid-area: cinco;
+
+}
