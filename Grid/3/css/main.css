@@ -1,0 +1,126 @@
+/* Generales */
+html * {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Principal */
+.principal {
+    height: 100vh;
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: aquamarine;
+    flex: 0.5;
+}
+
+/* Contenido */
+.contenido {
+    background-color: aliceblue;
+    flex: 1;
+}
+
+.contenido__img {
+    width: 100%;
+    height: auto;
+}
+
+/* Izquierda */
+.izquierda {
+    background-color: beige;
+}
+
+/* Anexos */
+.anexo1 {
+    background-color: goldenrod;
+    flex: 0.8;
+}
+
+.anexo2 {
+    background-color: darkcyan;
+    flex: 0.8;
+}
+
+/* Derecha */
+.derecha {
+    background-color: bisque;
+}
+
+/* Pie */
+.pie {
+    background-color: black;
+    color: white;
+    flex: 0.2;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal > * {
+        padding: 10px;
+    }
+
+    header, aside, footer, h1 {
+        text-align: center;
+    }
+
+    aside {
+        flex: 0.2;
+    }
+
+    .cabecera {
+        flex: 0.5;
+    }
+
+    /* Contenido */
+    .contenido {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        flex-basis: 50%;
+    }
+    .contenido__img {
+        width: 50%;
+        height: auto;
+
+    }
+    .contenido p{
+        flex-basis: 100%;
+    }
+    /* Anexos */
+    .anexo1 {
+        flex: 0.8;
+    }
+
+    .anexo2 {
+        flex: 0.8;
+    }
+
+    /* Pie */
+    .pie {
+        flex: 0.2;
+    }
+
+}

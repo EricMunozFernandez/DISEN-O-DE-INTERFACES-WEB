@@ -114,9 +114,33 @@ input[type="email"] {
     color: green;
 }
 
-input[type="radio"]:checked, label[form="radio-1"]:checked,
-label[form="radio-2"]:checked, label[form="radio-3"]:checked {
+#radio-1:checked + label[form="radio-1"]{
     font-weight: bold;
     color: black;
+    border: 1px solid steelblue;
+}
+#radio-2:checked + label[form="radio-2"]{
+    font-weight: bold;
+    color: black;
+    border: 1px solid steelblue;
+}
+#radio-3:checked + label[form="radio-3"]{
+    font-weight: bold;
+    color: black;
+    border: 1px solid steelblue;
+}
+label[form="radio-1"]:hover{
+    background-color: white;
+    color: steelblue;
+    border: 1px solid steelblue;
+}
+label[form="radio-2"]:hover{
+    background-color: white;
+    color: steelblue;
+    border: 1px solid steelblue;
+}
+label[form="radio-3"]:hover{
+    background-color: white;
+    color: steelblue;
     border: 1px solid steelblue;
 }
