@@ -1,36 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Actividad2</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Actividad2</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<header class="header">Header</header>
-		<div>
-			<div class="numero">1</div>
-			<div class="numero">2</div>
-			<div class="numero">3</div>
-			<div class="numero">4</div>
-		</div>
-		<div>
-			<div class="letra">a</div>
-			<div class="letra">b</div>
-			<div class="letra">c</div>
-			<div class="letra">d</div>
-		</div>
-		<div>
-			<div class="cara">:(</div>
-			<div class="cara">:D</div>
-		</div>
-		<div class="desktop">Desktop</div>
-		<footer class="footer">Footer</footer>
+<div class="container">
+    <div class="row header">Header</div>
+    <div class="row">
+        <div class="col-6 col-sm-3 offset-md-3 numero">1
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-6 col-sm-3 numero">2
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="d-none d-md-block col-sm-3"></div>
+        <div class="col-6 col-sm-3 numero">3
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-6 col-sm-3 offset-md-6 numero">4
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+	<div class="row d-none d-sm-block d-md-none desktop">Tablet
+		<br>
+		<br>
 	</div>
-	<script src="js/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <div class="row">
+        <div class="col-6 col-sm-3 order-md-4 letra">a
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-6 col-sm-3 order-md-3 letra">b
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-6 col-sm-3 order-md-2 letra">c
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-6 col-sm-3 order-md-1 letra">d
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row d-none d-md-block desktop">Desktop
+        <br>
+        <br>
+    </div>
+	<div class="row d-block d-sm-none desktop">Mobile
+		<br>
+		<br>
+	</div>
+    <div class="row">
+        <div class="d-none d-sm-block col-sm-6 col-md-3 offset-md-3 order-sm-2 order-md-1 cara">:(
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 order-sm-1 order-md-2 cara">:D
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row d-none d-sm-block footer">Footer</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
