@@ -3,7 +3,8 @@
     margin-bottom: 10px;
 }
 .jumbotron{
-    background-color: #cccc33;
+    background-color: #46b8da;
+    color: whitesmoke;
 }
 .main{
     background-color: #e4606d;
@@ -19,7 +20,6 @@
 }
 .aside{
     background-color: orangered;
-    height: 150px;
 }
 .footer{
     background-color: darkgray;
