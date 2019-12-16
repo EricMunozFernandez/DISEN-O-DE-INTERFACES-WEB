@@ -10,26 +10,27 @@
 <!-- NAVBAR
   ================================================== -->
 
-<nav style="top: 10px; right:0; left:0; z-index: 20;" class="navbar navbar-expand-lg navbar-dark bg-dark w-75 m-auto position-absolute container">
-  <a class="navbar-brand col-2" href="#"><img width="30" height="30" src="img/logo.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="col-lg-2 col-xl-7"></div>
-  <div class="collapse navbar-collapse col-1" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Categoria</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
-      </li>
-    </ul>
-  </div>
+<nav style="top: 10px; right:0; left:0; z-index: 20;"
+     class="navbar navbar-expand-sm navbar-dark bg-dark w-75 m-auto position-absolute container">
+    <a class="navbar-brand col-2" href="#"><img width="30" height="30" src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="col-sm-3 col-md-5 col-lg-6 col-xl-7"></div>
+    <div class="collapse navbar-collapse col-1" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Categoria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -41,31 +42,31 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/1.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Primero slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Primero slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Segundo slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Segundo slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Tercero slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Tercero slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/4.jpg" alt="Forth slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Cuarto slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cuarto slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,54 +83,105 @@
 <!-- Inserta el resto de la página en un contenedor para que aparezca centrado, es decir, añade al contenedor de abajo la clase Bootstrap para centrar todo -->
 
 
-<div class="marketing" id="servicios">
+<div class="marketing mt-5" id="servicios">
     <div class="row">
-        <div class="col-xs-12 col-sm-4 text-center">
-            <img src="" alt="" width="250" height="250" class="img-responsive img-circle">
-            <h2>
-                <p></p>
-            </h2>
-            <input type="button" href="" class="btn btn-primary"></a>
+        <div class="col-xs-12 col-sm-12 col-md-4 mt-2 text-center">
+            <img src="img/alpes.jpeg" alt="" width="250" height="250" class="img-responsive rounded-circle">
+            <h2 class="my-3">Alpes</h2>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+                relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+            <input type="button" href="" class="btn btn-primary" value="View Details"></a>
         </div>
 
-        <div class="col-xs-12 col-sm-4 text-center">
-            <img src="" alt="" class="img-responsive img-circle">
-            <h2>
-                <p></p>
-            </h2>
-            <input type="button" href="" class="btn btn-primary"></a>
+        <div class="col-xs-12 col-sm-12 col-md-4 mt-2 text-center">
+            <img src="img/nepal.jpg" alt="" width="250" height="250" class="img-responsive rounded-circle">
+            <h2 class="my-3">Nepal</h2>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+                relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+            <input type="button" href="" class="btn btn-primary" value="View Details"></a>
         </div>
 
-        <div class="col-xs-12 col-sm-4 text-center">
-            <img src="" alt="" class="img-responsive img-circle">
-            <h2>
-                <p></p>
-            </h2>
-            <input type="button" href="" class="btn btn-primary"></a>
+        <div class="col-xs-12 col-sm-12 col-md-4 mt-2 text-center">
+            <img src="img/pirineos.jpg" alt="" width="250" height="250" class="img-responsive rounded-circle">
+            <h2 class="my-3">Pirineos</h2>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+                relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+            <input type="button" href="" class="btn btn-primary" value="View Details"></a>
         </div>
     </div>
     <!-- Una fila que se divide en 3 columnas iguales para md. Las imagenes tienen una clase img-circle y una anchura y altura de 250 -->
 
     <hr class="featurette-divider">
 
-    <div class="">
-
+    <div class="container py-5">
+        <a class="float-right" href="#"><img class="img-thumbnail" src="img/guia1.jpg"></a>
+        <h2 class="">Titulo 1</h2>
+        <p class="">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+            sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+            que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+            hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+            relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
     </div>
     <!--Contenedor para bloque 1 de nosotros. La imagen debe ser de tipo enlace con clase thumb y flotado derecha. La imagen, en cambio, debe tener un borde-->
 
     <hr class="featurette-divider">
 
+    <div class="container py-5">
+        <a class="float-left" href="#"><img class="img-thumbnail" src="img/guia2.jpg"></a>
+        <h2 class="">Titulo 2</h2>
+        <p class="">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+            sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+            que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+            hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+            relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+    </div>
     <!--Contenedor para bloque 2 de nosotros. La imagen debe ser de tipo enlace con clase thumb y flotado izquierda. La imagen, en cambio, debe tener un borde-->
 
     <hr class="featurette-divider">
 
+    <div class="container py-5">
+        <a class="float-right" href="#"><img class="img-thumbnail" src="img/guia3.jpg"></a>
+        <h2 class="">Titulo 3</h2>
+        <p class="">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+            sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+            que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+            hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+            relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+    </div>
     <!--Contenedor para bloque 2 de nosotros. La imagen debe ser de tipo enlace con clase thumb y flotado derecha. La imagen, en cambio, debe tener un borde-->
 
     <hr class="featurette-divider">
 
     <!--Formulario horizontal-->
-
-
+    <form class="col-5">
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Example textarea</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </form>
     <!-- FOOTER -->
     <footer>
         <p class=""><a href="#">Back to top</a></p>
